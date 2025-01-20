@@ -72,6 +72,11 @@ body {
 	font-size: 5rem;
 	font-weight: 500;
 	color: lighten(blue, 18%);
+
+	@media (max-width: 500px) {
+		text-align: center;
+		width: 90%;
+	}
 }
 
 .btn {

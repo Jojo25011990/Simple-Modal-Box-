@@ -112,6 +112,12 @@ body {
   font-weight: 500;
   color: #5c5cff;
 }
+@media (max-width: 500px) {
+  .heading__primary {
+    text-align: center;
+    width: 90%;
+  }
+}
 
 .btn:hover {
   animation: shake 0.175s linear 1;
